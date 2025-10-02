@@ -16,13 +16,12 @@
 
 ## 📖 About The Project
 
-Docleus is a cutting-edge healthcare management platform that bridges the gap between patients and healthcare providers. Built with modern web technologies, it streamlines doctor appointments, promotes mental health awareness, and leverages AI-powered diagnostics to enhance patient care. Our mission is to make quality healthcare accessible, efficient, and patient-centric.
+Docleus is a cutting-edge healthcare management platform that bridges the gap between patients and healthcare providers. Built with modern web technologies, it streamlines doctor appointments. Our mission is to make quality healthcare accessible, efficient, and patient-centric.
 
 ### ✨ Why Docleus?
 
 - 🎯 **Patient-First Approach** - Intuitive interface designed with users in mind
 - 🔒 **Secure & Compliant** - Industry-standard security practices for sensitive health data
-- 🤖 **AI-Powered Insights** - Smart symptom analysis for preliminary health guidance
 - 📱 **Responsive Design** - Seamless experience across all devices
 - ⚡ **Real-Time Updates** - Instant appointment confirmations and notifications
 
