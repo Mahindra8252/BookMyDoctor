@@ -34,27 +34,8 @@ Docleus is a cutting-edge healthcare management platform that bridges the gap be
 
 - **Smart Appointment Booking**
   - Real-time doctor availability
-  - Easy rescheduling and cancellation
-  - Automated appointment reminders
+  - Easy scheduling
   - Multi-specialty doctor search
-
-- **Mental Health Assessment**
-  - Confidential questionnaires
-  - Progress tracking over time
-  - Personalized recommendations
-  - Anonymous support resources
-
-- **AI Symptom Checker**
-  - Intelligent symptom analysis
-  - Preliminary health guidance
-  - Urgency level assessment
-  - Specialist recommendations
-
-- **Secure Medical Records**
-  - Cloudinary-powered image storage
-  - Fast upload and retrieval
-  - HIPAA-compliant security
-  - Easy sharing with healthcare providers
 
 - **Admin Dashboard**
   - User management system
@@ -102,21 +83,6 @@ Docleus is a cutting-edge healthcare management platform that bridges the gap be
 | PUT | `/api/appointments/:id` | Update appointment | ✅ |
 | DELETE | `/api/appointments/:id` | Cancel appointment | ✅ |
 
-### Mental Health Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/api/mental-health` | Submit assessment | ✅ |
-| GET | `/api/mental-health` | Get user mental health history | ✅ |
-| GET | `/api/mental-health/stats` | Get assessment statistics | ✅ |
-
-### AI Symptom Checker
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/api/symptoms/check` | Analyze symptoms | ✅ |
-| GET | `/api/symptoms/history` | Get symptom check history | ✅ |
-
 ---
 
 ## 🚀 Getting Started
@@ -133,7 +99,7 @@ Docleus is a cutting-edge healthcare management platform that bridges the gap be
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sachin3059/docleus.git
+   git clone https://github.com/Mahindra8252/BookMyDoctor
    cd docleus
    ```
 
@@ -189,14 +155,39 @@ Docleus is a cutting-edge healthcare management platform that bridges the gap be
 
 ## 🌐 Live Demo
 
-**Experience Docleus in action:** [https://docleus-frontend.onrender.com/](https://docleus-frontend.onrender.com/)
+**Experience Docleus in action:**
 
-### Demo Credentials
+### 🏥 User Portal (Patient Interface)
+[https://docleus-frontend.onrender.com/](https://docleus-frontend.onrender.com/)
+
+### ⚙️ Admin Dashboard
+[https://docleus-admin.onrender.com/](https://docleus-admin.onrender.com/)
+
+---
+
+### 🔐 Demo Credentials
+
+#### Admin Access
 ```
-Email: demo@docleus.com
-Password: Demo@123
+Email: admin@docleus.com
+Password: admin123
 ```
-*Note: Demo account has limited permissions*
+*Full administrative privileges - manage users, appointments, and system settings*
+
+#### Doctor Access
+```
+Email: mahindra947077@gmail.com
+Password: Mahindra8252@
+```
+*Doctor interface - view appointments, manage patient records, and consultations*
+
+#### Patient Access
+```
+Coming Soon
+```
+*Register as a new patient to explore booking features*
+
+> ⚠️ **Note:** These are demo accounts for testing purposes. Please do not share sensitive information.
 
 ---
 
@@ -205,13 +196,25 @@ Password: Demo@123
 <div align="center">
 
 ### Dashboard
-![Dashboard](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)
+<img width="1899" height="914" alt="Screenshot 2025-10-03 004609" src="https://github.com/user-attachments/assets/71684898-6279-439a-8c7f-3baf10c181ed" />
+<img width="1888" height="862" alt="Screenshot 2025-10-03 004623" src="https://github.com/user-attachments/assets/f4b70750-869d-4474-aabd-a69395a9de3b" />
 
 ### Appointment Booking
-![Appointments](https://via.placeholder.com/800x400?text=Appointment+Booking)
+<img width="1867" height="915" alt="Screenshot 2025-10-03 005038" src="https://github.com/user-attachments/assets/0ad6c653-30f9-4d67-9181-ae142e1d93b0" />
+<img width="1831" height="913" alt="Screenshot 2025-10-03 005059" src="https://github.com/user-attachments/assets/0b8be50c-dca8-40bf-895f-b9b4665d8bfc" />
 
-### AI Symptom Checker
-![AI Checker](https://via.placeholder.com/800x400?text=AI+Symptom+Checker)
+
+### IN DOCTOR PANEL
+<img width="1906" height="910" alt="image" src="https://github.com/user-attachments/assets/84e356f0-b072-4651-b735-4c056fd97685" />
+<img width="1909" height="901" alt="image" src="https://github.com/user-attachments/assets/989865ab-dc8c-481c-bdd3-0afe030869df" />
+
+### IN ADMIN PANEL
+<img width="1901" height="893" alt="Screenshot 2025-10-03 005507" src="https://github.com/user-attachments/assets/ea21c814-9c5c-4355-83ca-116d80bef521" />
+
+<img width="1902" height="916" alt="image" src="https://github.com/user-attachments/assets/d4e5f97e-34c6-44e2-8f2c-2eb328ce32ae" />
+<img width="1895" height="899" alt="image" src="https://github.com/user-attachments/assets/83b61b7a-9264-487a-8be4-cdb526f17130" />
+<img width="1885" height="913" alt="image" src="https://github.com/user-attachments/assets/ae765060-7df5-46b5-b110-391dbd8cfd1d" />
+
 
 </div>
 
@@ -258,9 +261,6 @@ We welcome contributions from the community! Here's how you can help:
 - [ ] Multi-language support
 - [ ] Integration with wearable devices
 - [ ] Patient community forums
-
-See the [open issues](https://github.com/sachin3059/docleus/issues) for a full list of proposed features and known issues.
-
 ---
 
 ## 📄 License
