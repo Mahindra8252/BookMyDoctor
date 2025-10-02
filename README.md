@@ -8,7 +8,8 @@
 
 **Transforming Healthcare Through Technology**
 
-[Live Demo](https://docleus-frontend.onrender.com/) • [Report Bug](https://github.com/sachin3059/docleus/issues) • [Request Feature](https://github.com/sachin3059/docleus/issues)
+[Live Demo of User Portal](https://docleus-frontend.onrender.com/)
+[Live Demo of Admin Dashboard](https://docleus-admin.onrender.com/)
 
 </div>
 
